@@ -20,7 +20,6 @@ img{
 .wrapper{
     max-width: 400px;
     width: 100%;
-    margin: 0 20px;
     height: auto;
     margin: 0 auto;
     padding: 20px;
@@ -87,4 +86,10 @@ img{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
+}
+
+@media (max-width: 400px){
+    .wrapper{
+        width: 96%;
+    }
 }
